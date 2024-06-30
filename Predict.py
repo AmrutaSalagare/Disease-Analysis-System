@@ -192,6 +192,7 @@ if selected == 'Heart Disease Prediction':
             st.text(
                 "Anginotensin converting enzyme inhibitors:\nRamipril\n\nLisinopril\nAnginotensin2 receptor blockers\nDiuretics")
 
+
 # Parkinson's Prediction Page
 if selected == "Parkinsons Prediction":
     st.title("Parkinson's Disease Prediction")
@@ -256,6 +257,7 @@ if selected == "Parkinsons Prediction":
             st.success('The person has Parkinson\'s Disease')
             st.text("Treatment")
 
+
 # Typhoid Disease prediction
 if selected == "Typhoid Prediction":
     st.title("Typhoid Disease Prediction")
@@ -293,6 +295,7 @@ if selected == "Typhoid Prediction":
                     '2. Treated with steroids: dexamethasone \n\n'
                     '3. Other treatments:\n Drinking fluids \n Surgery')
 
+
 # Covid-19 Prediction Page
 if selected == 'Covid-19 Prediction':
     # Page title
@@ -325,6 +328,7 @@ if selected == 'Covid-19 Prediction':
             st.success('The person is affected with COVID-19')
             st.text("Treatment")
             st.text('1. Isolation and rest\n 2. Hydration and nutritious food\n 3. Medications as prescribed\n 4. Monitoring symptoms and seeking medical help if needed')
+
 
 # Breast Cancer Prediction Page
 # if selected == 'Breast Cancer Prediction':
